@@ -2,7 +2,7 @@ import time
 
 estoqueQueijo = 50.0
 estoquePao = 50.0
-
+estoqueFarinhaDeTrigo = 20
 
 
 queijoPreco = 24.90
@@ -47,6 +47,7 @@ while True:
         if registraProduto == "farinha de trigo":
             dinheiro = registraUnidade * farinhaDeTrigoPreco
             faturamento += dinheiro
+            estoqueFarinhaDeTrigo -= registraUnidade
         print(sucesso)
         print(espacoEmBranco)
     else:
@@ -79,4 +80,5 @@ time.sleep(1)
 
 
 print(f'O faturamento total do dia foi de {faturamento:,.2f}R$')
-        
+print(espacoEmBranco)
+print(f'O nosso estoque contém {estoquePao}KG de pao, {estoqueQueijo}KG de queijo e {estoqueFarinhaDeTrigo} unidades de farinha de trigo ')
