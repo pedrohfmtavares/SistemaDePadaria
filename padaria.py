@@ -92,6 +92,13 @@ time.sleep(1)
 
 
 # MENSAGENS FINAIS APÓS O FECHAMENTO DO CAIXA
+print(espacoEmBranco)
 print(f'O faturamento total do dia foi de {faturamento:,.2f}R$')
+
+
 print(espacoEmBranco)
 print(f'O nosso estoque contém {estoquePao}KG de pao, {estoqueQueijo}KG de queijo e {estoqueFarinhaDeTrigo} unidades de farinha de trigo ')
+
+
+print(espacoEmBranco)
+input("O caixa foi fechado com sucesso! Digite qualquer tecla para fechar a janela do caixa!   ")
