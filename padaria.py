@@ -100,5 +100,6 @@ print(espacoEmBranco)
 print(f'O nosso estoque contém {estoquePao}KG de pao, {estoqueQueijo}KG de queijo e {estoqueFarinhaDeTrigo} unidades de farinha de trigo ')
 
 
+#CAIXA FECHOU DE FATO,AGORA PRECISAMOS DE UM COMANDO QUE FAÇA A JANELA FICAR ABERTA DEPOIS DO FECHAMENTO,LOGO,O INPUT FOI USADO
 print(espacoEmBranco)
-input("O caixa foi fechado com sucesso! Digite qualquer tecla para fechar a janela do caixa!   ")
+input("O caixa foi fechado com sucesso! Aperte a tecla ENTER para fechar a janela do caixa!   ")
